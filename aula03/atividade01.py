@@ -1,7 +1,7 @@
 # Exercício 01
 #-----------------------
 
-valor = int(input('Informe o valor da compra: R$ '))
+valor = float(input('Informe o valor da compra: R$ '))
 if valor > 250:
     desconto = valor * 0.16
     total_desconto = valor - desconto
